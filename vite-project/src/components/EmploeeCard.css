@@ -3,8 +3,9 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    background-color: #FFFFFF;
+    background-color: rgba(0,0,0,0.1);
     text-align: center;
+    position: relative;
 }
 
 .emp-photo {
@@ -23,6 +24,7 @@
     font-size: 18px;
     font-weight: bold;
     color: #333875;
+    
 }
 
 .emp-position {
@@ -45,4 +47,11 @@
 
 .emp-email:hover {
     text-decoration: underline;
+}
+.employee-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
 }
