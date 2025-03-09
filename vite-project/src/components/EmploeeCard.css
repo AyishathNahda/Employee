@@ -1,0 +1,48 @@
+.employee-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.emp-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.emp-info {
+    margin-top: 10px;
+}
+
+.emp-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333875;
+}
+
+.emp-position {
+    font-size: 14px;
+    color: #555566;
+}
+
+.emp-department {
+    font-size: 14px;
+    color: #777899;
+}
+
+.emp-email {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.emp-email:hover {
+    text-decoration: underline;
+}
