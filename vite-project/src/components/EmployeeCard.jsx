@@ -1,5 +1,5 @@
 import React from "react";
-import "./EmployeeCard.css"; //  Import CSS file
+import "./EmploeeCard.css"; //  Import CSS file
 
 const EmployeeCard = ({ photo, fullName, position, department, email }) => {
   return (
